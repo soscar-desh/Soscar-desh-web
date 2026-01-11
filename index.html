@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sheryl Mwende — Home</title>
+  <meta name="description" content="Portfolio of Sheryl Mwende — developer.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/placeholder.svg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#hero" class="logo">SOSCAR DESH</a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul id="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-inner">
+
+        <div class="hero-copy">
+          <h1>Hi, I'm Sheryl Mwende.</h1>
+          <p class="muted">I'm a Year 2.1 B.Sc. Information Technology student at Machakos University. I design and build accessible, responsive websites and web apps focused on performance, usability, and clean UI. Open to collaboration.</p>
+          <p><a href="#about" class="btn">About me</a> <a href="#contact" class="btn btn-ghost">Contact</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="images/about.jpg" alt="Sheryl Mwende — About photo" onerror="this.onerror=null;this.src='images/placeholder.svg';">
+        </div>
+        <div class="about-content">
+          <div class="about-main">
+            <p class="muted">I'm Sheryl Mwende — a web and app developer with a passion for building accessible, responsive experiences. I'm currently a Year 2.1 B.Sc. Information Technology student at <strong>Machakos University</strong>.</p>
+            <p>I completed my primary education at <strong>Malivani AIC</strong> and attended <strong>St. Agnes High School</strong> for secondary. Currently pursuing higher studies while building practical projects in web and mobile development.</p>
+            <p>Skills: HTML · CSS · JavaScript · Responsive Design · Accessibility · App development (in progress)</p>
+            <p>See my projects on GitHub: <a href="https://github.com/soscar-desh" target="_blank" rel="noopener">github.com/soscar-desh</a></p>
+          </div>
+
+          <div class="about-extras">
+            <div class="about-box">
+              <h4>Hobbies</h4>
+              <ul>
+                <li>Reading</li>
+                <li>Coding small projects</li>
+                <li>Photography</li>
+              </ul>
+            </div>
+
+            <div class="about-box">
+              <h4>Talents</h4>
+              <ul>
+                <li>Quick learner</li>
+                <li>UI layout &amp; design</li>
+              </ul>
+            </div>
+
+            <div class="about-box">
+              <h4>Achievements</h4>
+              <ul>
+                <li>Built this personal website as my first live site</li>
+                <li>Completed web development assignments at university</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2 class="projects-title">SOSCAR DESH PROJECTS</h2>
+      <div class="project-grid">
+        <article class="project">
+          <h3>Project One</h3>
+          <p class="muted">University assignment — a simple, accessible personal website demonstrating responsive layout and basic accessibility practices.</p>
+          <p class="muted">Details</p>
+        </article>
+        <article class="project">
+          <h3>Project Two</h3>
+          <p class="muted">App in progress — a simple note-taking app prototype currently under development to learn app structure and state handling.</p>
+          <p class="muted">Details</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <h3>Get in touch</h3>
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:soscar3769@gmail.com">soscar3769@gmail.com</a>, <a href="mailto:sherylmwende46@gmail.com">sherylmwende46@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+254700136544">+254 700 136 544</a> / <a href="tel:+254701203281">+254 701 203 281</a></li>
+            <li><strong>Location:</strong> Machakos, Kenya</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/soscar-desh" target="_blank" rel="noopener">github.com/soscar-desh</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrap">
+          <h3>Send a message</h3>
+          <form id="contact-form" aria-label="Contact form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <p id="form-status" class="muted hidden" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <div class="footer-inner">
+      <p class="muted">© 2026 Sheryl Mwende</p>
+      <nav class="footer-nav"><a href="#about">About</a> · <a href="#contact">Contact</a> · <a href="https://github.com/soscar-desh" target="_blank" rel="noopener">GitHub</a></nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
